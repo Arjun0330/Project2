@@ -122,4 +122,44 @@ img{
     height: 100%; /* Ensure the child div takes up the full height */
     width: 65%;
     /* background-color: chocolate; */
+    padding: 0px 88px; /* Adjust padding to match the padding used for #work */
 }
+.work2part{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 50px 0px;
+}
+.work2part:nth-child(1)
+{
+    /* background-color: burlywood; */
+    border-bottom: 2px solid #000;
+    
+    /* border-left: 2px solid #000; */
+
+}
+
+.work2part.elem{
+   width: 50%;
+   height: 100%;
+}
+.work2part.elem:nth-child(1) {
+    border-right: 2px solid #000; 
+    padding-right: 50px;
+}
+.work2part.elem:nth-child(2) {
+    padding-right: 45px;
+}
+#work2 .work2part .elem h4 {
+    font-size: 65px; /* Adjust the font size as desired */
+    font-weight: 900;
+    
+}
+#work2 .work2part .elem p {
+    font-size: 80px; /* Adjust the font size as desired */
+    color: rgb(10, 9, 9);
+    font-weight: 500;
+}
+
+
